@@ -1,0 +1,15 @@
+---
+# 本文件放在系统根目录下，文件名为/config.yaml，由内部管理服务读取，
+# 并根据本文件的配置调整系统各项参数。
+system:
+	backup_ip:    #eth0:1的IP地址（由管理服务生成，在169.254段）
+	hotspot:      #无线热点参数
+	    hw_mode:  #无线频段（5G，2.4G etc）
+		channel:  #无线信道
+		chanlist: #可用无线信道
+		ssid:     #WIFI SSID
+		password: #接入密码
+domain:
+	suffix:   #域名
+	host:     #主机名
+	upstream: #上游DNS，可以有多个
